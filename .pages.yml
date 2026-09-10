@@ -1,0 +1,91 @@
+media:
+  input: media
+  output: /media
+  rename: safe
+  categories: [image, document]
+
+settings:
+  hide: true
+
+content:
+  - name: homepage
+    label: Homepage
+    type: file
+    path: data/site.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: name
+        label: Name
+        type: string
+      - name: role
+        label: Job title
+        type: string
+      - name: portrait
+        label: Portrait
+        type: image
+      - name: intro_title
+        label: Intro headline
+        type: text
+      - name: intro_text
+        label: Intro paragraph
+        type: text
+      - name: disciplines
+        label: Disciplines
+        type: string
+      - name: statement
+        label: Statement
+        type: text
+      - name: location
+        label: Location
+        type: string
+      - name: availability
+        label: Availability
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: linkedin
+        label: LinkedIn URL
+        type: string
+      - name: instagram
+        label: Instagram URL
+        type: string
+      - name: cv
+        label: CV URL / file
+        type: string
+      - name: contact_title
+        label: Contact title
+        type: string
+      - name: contact_text
+        label: Contact text
+        type: text
+
+  - name: projects
+    label: Projects
+    type: file
+    path: data/projects.json
+    format: json
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: title
+        label: Project title
+        type: string
+      - name: meta
+        label: Category / role / year
+        type: string
+      - name: summary
+        label: Short description
+        type: text
+      - name: visual_label
+        label: Visual label
+        type: string
+      - name: cover_image
+        label: Cover image
+        type: image
+      - name: link
+        label: Case study link
+        type: string

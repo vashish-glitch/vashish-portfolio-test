@@ -1,0 +1,34 @@
+[
+  {
+    "title": "XPENG",
+    "meta": "Brand Experience / Launch / Creative Production — 2026",
+    "summary": "A new mobility brand entering Mauritius. The challenge: turn a showroom inauguration into a guided, interactive discovery experience rather than a conventional car launch.",
+    "link": "projects/xpeng.html",
+    "visual_label": "EXPERIENCE / SYSTEM / LIVE",
+    "cover_image": ""
+  },
+  {
+    "title": "TRASH TO TALE",
+    "meta": "Culture / Art / Social Impact — 2026",
+    "summary": "A collaborative residency in Moroni using recovered materials, music, storytelling and public workshops to transform waste into a shared cultural narrative.",
+    "link": "projects/trash-to-tale.html",
+    "visual_label": "RESIDENCY / MATERIAL / STORY",
+    "cover_image": ""
+  },
+  {
+    "title": "BEACHCOMBER",
+    "meta": "Employer Brand / Experience / Communication",
+    "summary": "A selection of brand and employee-facing projects developed for Beachcomber — connecting identity, storytelling, internal engagement and live experience.",
+    "link": "projects/beachcomber.html",
+    "visual_label": "BRAND / PEOPLE / EXPERIENCE",
+    "cover_image": ""
+  },
+  {
+    "title": "JETOUR",
+    "meta": "Automotive / Launch / Event Production",
+    "summary": "An automotive launch shaped as a brand moment: guest journey, staging, production logic and live coordination designed to make the reveal feel intentional and memorable.",
+    "link": "projects/jetour.html",
+    "visual_label": "LAUNCH / REVEAL / PRODUCTION",
+    "cover_image": ""
+  }
+]
